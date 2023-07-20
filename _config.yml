@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Elizabeth B. Cloude"
-  avatar           : "headshot1.pdf"
+  avatar           : "headshot1.jpg"
   bio              : "Postdoctoral Research Fellowship"
   location         : "Philadelphia, Pennsylvania"
   employer         :
@@ -108,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "forcryinoutcloude"
+  twitter          : "@forcryinoutcloude"
   vine             :
   weibo            :
   xing             :
