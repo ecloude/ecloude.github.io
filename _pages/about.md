@@ -14,8 +14,6 @@ I earned a Ph.D. in Education and Learning Sciences from the University of Centr
 
 My research explores self-regulated learning as a multi-faceted system, encompassing multiple components, including cognitive, affective, metacognitive, and motivational processes, all of which interact continuously over time and across contexts. To collect the process-level data needed to measure and model self-regulated learning as a multi-dimensional system, my work leverages both quantitative and qualitative measures. Specifically, my work leverages think-aloud protocols and enriches these data further with multimodal data, including eye movements, facial expressions of emotions, physiological data, and log files on learner-system interactions collected in the laboratory.
 
-<br/><img src='/images/IMG_9280.JPG'>
-
 My vision is to design adaptive learning software to unobtrusively detect and support essential self-regulated learning needs to improve learning and  performance. Through this work, I aim to influence instructional design and provide valuable insights for instructors in the classroom, to scaffold effective teaching practices and learning strategies.
 
 
@@ -24,8 +22,9 @@ Kippis (cheers in Finnish)!
 Liz
 
 
-FACTS
+PICTURES
 ======
+<br/><img src='/images/IMG_9280.JPG'>
 
 
 
