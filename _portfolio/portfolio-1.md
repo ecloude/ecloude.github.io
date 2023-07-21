@@ -1,6 +1,6 @@
 ---
 title: "Project AMELIA"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/AMELIA.pdf'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/AMELIA.jpg'>"
 collection: portfolio
 ---
 
