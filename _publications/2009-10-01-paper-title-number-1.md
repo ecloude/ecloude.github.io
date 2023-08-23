@@ -1,7 +1,7 @@
 ---
 title: "Affective dynamics and cognition during game-based learning"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2022-10-01-paper-Affective dynamics and cognition during game-based learning
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-10-01
 venue: 'IEEE Transactions on Affective Computing'
