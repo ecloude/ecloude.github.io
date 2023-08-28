@@ -17,7 +17,7 @@ author_profile: true
 
 ## Multimodal Learning Analytics
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'MLA' %}
+  {% if pubtype == 'MLA' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -25,7 +25,7 @@ author_profile: true
 
 ## Mixed Methods
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'mixed-methods' %}
+  {% if pubtype == 'mixed-methods' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -33,7 +33,7 @@ author_profile: true
 
 ## Self-regulated Learning
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'SRL' %}
+  {% if pubtype == 'SRL' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
