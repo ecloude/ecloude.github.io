@@ -5,9 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-[Journal Articles](#journal-articles)\
-[Conference Papers](#conference-papers)\
-[Academic](#academic)
+[Multimodal Learning Analytics](#multimodal-learning-analytics)\
+[Mixed Methods](#mixed-methods)
 
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -15,25 +14,17 @@ author_profile: true
 
 {% include base_path %}
 
-## Journal Articles
+## Multimodal Learning Analytics
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'journal' %}
+  {% if post.pubtype == 'MLA' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 
-## Conference Papers
+## Mixed Methods
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'conference' %}
+  {% if post.pubtype == 'mixed-methods' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-## Academic
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'academic' %}
-      {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
