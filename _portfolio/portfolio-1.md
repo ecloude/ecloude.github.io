@@ -4,7 +4,7 @@ excerpt: "Short description of portfolio item number 1"
 collection: portfolio
 ---
 
-<br/><img src='/images/AMELIA.jpg'
+<br/><img src='/images/antidote-game.jpg'
 
 Research Project Abstract: 
 
@@ -16,7 +16,6 @@ Theoretically, the project will advance game-based learning research by merging 
 
 
 - Add data management plan aligned with FAIR principles
-
 - 
 
 
