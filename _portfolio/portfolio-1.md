@@ -18,4 +18,4 @@ Theoretically, the project will advance game-based learning research by merging 
 - Add data management plan aligned with FAIR principles
 - 
 
-
+<br/><img src='/images/EUflag.png'>
