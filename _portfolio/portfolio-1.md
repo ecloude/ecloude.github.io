@@ -4,7 +4,7 @@ excerpt: "Short description of portfolio item number 1"
 collection: portfolio
 ---
 
-<br/><img src='/images/antidote-game.jpg'
+<br/><img src='/images/antidote-game.jpg'>
 
 Research Project Abstract: 
 
