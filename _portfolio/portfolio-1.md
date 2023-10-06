@@ -1,8 +1,10 @@
 ---
-title: "Project AMELIA"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/AMELIA.jpg'>"
+title: "Emotional Modelling to Enhance Learning with Games"
+excerpt: "Short description of portfolio item number 1"
 collection: portfolio
 ---
+
+<br/><img src='/images/AMELIA.jpg'
 
 Research Project Abstract: 
 
