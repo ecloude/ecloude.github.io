@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Cloude CV.pdf](#) 
+[Download CV here](https://drive.google.com/file/d/1mYQO_reObuwggVkFmx4ImXQRmfg21NtF/view?usp=sharing) 
 
 Education
 ======
