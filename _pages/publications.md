@@ -5,12 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-[Self-regulated Learning Processes](#SRL)
-The heart of my research is situated in learning analytics, learning sciences, instructional design, and educational technology. My ultimate research goal is to develop intelligent and adaptive learning technologies that could enhance the accessibility, inclusivity, and overall quality of digital education, making the benefits of SRL accessible to all types of learners.
+## Self-regulated Learning Processes
 
-To achieve this goal, it requires studying SRL comprehensively, as a process with four underlying components: cognition, affect, metacognition, and motivation (CAMM) which serve as the bedrock for effective self-regulation during learning (SRL). Studying SRL as a process that unfolds over time requires collecting fine-grained and continuous data streams of underlying CAMM processes that transpire during learning activities with educational software.
+My ultimate research goal is to develop intelligent and adaptive learning technologies that enhance the accessibility, inclusivity, and overall quality of digital education, making the benefits of self-regulated learning (SRL) skills accessible to learners globally.
 
-As such, my publications are organized by two process-oriented approaches with diverse learning technologies. One that utilizes multimodal data streams (solely relying on quantitative measures) and the other that harnesses the power of mixed-multimodal methods (merging quantitaive and qualitative measures).
+Achieving this goal requires studying SRL comprehensively, as a process with four underlying components: cognition, affect, metacognition, and motivation (CAMM) during learning. Studying how CAMM processes unfold and give rise to to SRL requires collecting fine-grained and continuous data streams that transpire during learning activities with learning software. Because of this, my publications are organized by two process-oriented approaches with different learning software. The first involves utilizing multimodal data streams (solely relying on quantitative CAMM measures), while the other harnesses the power of mixed-multimodal methods (merging quantitaive and qualitative CAMM measures).
 
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
