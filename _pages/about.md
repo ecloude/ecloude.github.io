@@ -19,5 +19,3 @@ Liz
 
 
 <br/><img src='/images/IMG_9280.JPG'>
-
-[View Espresso Consumption Chart](https://username.github.io/index.html)
