@@ -1,7 +1,7 @@
 ---
 title: "Studying self-regulated learning processes during clinical reasoning activities"
-excerpt: "Short description of portfolio item number 2"
+excerpt: "Measuring SRL processing using mixed-multimodal methods in medical education"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Cresme Demonstration [here](https://docs.google.com/presentation/d/1tXXhEsTSRbnCN-JqIhLP03-i-y0NX-h_bnQYIYiCPIw/edit#slide=id.g291810c922a_0_0)
