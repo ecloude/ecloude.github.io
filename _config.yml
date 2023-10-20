@@ -101,7 +101,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/elizabeth-b-cloude-ph-d-036327a5/"
+  linkedin         : "https://www.linkedin.com/in/elizabeth-b-cloude-ph-d/"
   orcid            : "https://orcid.org/0000-0002-7599-6768"
   pinterest        :
   soundcloud       :
@@ -174,9 +174,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
