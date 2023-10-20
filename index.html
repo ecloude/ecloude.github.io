@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Espresso Consumption Chart</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>Espresso Consumption Chart</h1>
+    <div id="chart-container"></div>
+
+    <script>
+        const data = [
+            { day: "Monday", cups: 3 },
+            { day: "Tuesday", cups: 2 },
+            { day: "Wednesday", cups: 4 },
+            { day: "Thursday", cups: 3 },
+            { day: "Friday", cups: 5 }
+        ];
+
+        const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+        const width = 600 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
+
+        const svg = d3.select("#chart-container")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        const x = d3.scaleBand()
+            .domain(data.map(d => d.day))
+            .range([0, width])
+            .padding(0.1);
+
+        const y = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d.cups)])
+            .nice()
+            .range([height, 0]);
+
+        svg.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", d => x(d.day))
+            .attr("y", d => y(d.cups))
+            .attr("width", x.bandwidth())
+            .attr("height", d => height - y(d.cups))
+            .attr("fill", "steelblue");
+
+        svg.append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x));
+
+        svg.append("g")
+            .call(d3.axisLeft(y));
+
+        svg.selectAll("text")
+            .data(data)
+            .enter()
+            .append("text")
+            .text(d => d.cups)
+            .attr("x", d => x(d.day) + x.bandwidth() / 2)
+            .attr("y", d => y(d.cups) - 10)
+            .attr("text-anchor", "middle")
+            .attr("fill", "white");
+    </script>
+</body>
+</html>
