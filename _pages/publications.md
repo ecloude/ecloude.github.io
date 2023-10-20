@@ -22,8 +22,6 @@ Achieving this goal requires studying SRL comprehensively, as a process with fou
   {% endif %}
 {% endfor %}
 
-## Table 1
-
 | Author          | Year   |  Title                                      |  Venue      | Hyperlink  | Learning Software |
 | ----------------| -------| ------------------------------------------- | ------------|------------|-------------------| 
 | [2020-07-03](#)    | 2020   | Description of the item in the list         |             |            |Game-based Learning|
@@ -37,8 +35,6 @@ Achieving this goal requires studying SRL comprehensively, as a process with fou
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-## Table 2
 
 | Author          | Year   |  Title                                                       |  Venue      |   Hyperlink  |
 | ----------------| -------| ------------------------------------------------------------ | ------------|  ------------|  
