@@ -20,17 +20,4 @@ Liz
 
 <br/><img src='/images/IMG_9280.JPG'>
 
-
-<p id="espresso-counter">Espressos consumed: 0</p>
-<button onclick="updateEspressoCount()">Add Espresso</button>
-
-<script>
-  // Initialize the espresso count
-  let espressoCount = 0;
-
-  // Function to update the count and display it
-  function updateEspressoCount() {
-    espressoCount++;
-    document.getElementById('espresso-counter').textContent = `Espressos consumed: ${espressoCount}`;
-  }
-</script>
+[View Espresso Consumption Chart](https://username.github.io/index.html)
