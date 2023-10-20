@@ -13,8 +13,8 @@ author_profile: true
 
 [Society for Learning Analytics Research (SoLAR)](https://www.youtube.com/watch?v=HwZyua3DvG4)
 
-In this webinar, Elizabeth Cloude disscusses the state-of-the-art research findings, theoretical, methodological, and analytical approaches, and their challenges. It prsents an interdisciplinary perspective that merges an affect framework with complex adaptive systems theory. New research tools and directions are examined, describing how the design of educational technologies can positively influence affect, engagement, knowledge acquisition, and learning outcomes. Finally, opportunities and challenges regarding affect learning analytics are also discussed.
+Find more information here
 
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% include archive-single-talk.md %}
 {% endfor %}
