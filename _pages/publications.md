@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /_publications/
+permalink: /publications/
 author_profile: true
 ---
 
@@ -22,22 +22,9 @@ Achieving this goal requires studying SRL comprehensively, as a process with fou
   {% endif %}
 {% endfor %}
 
-| Author          | Year   |  Title                                      |  Venue      | Hyperlink  | Learning Software |
-| ----------------| -------| ------------------------------------------- | ------------|------------|-------------------| 
-| [2020-07-03](#)    | 2020   | Description of the item in the list         |             |            |Game-based Learning|
-| [Paper 2](#)    | 2019   | Description of the item in the list         |             |            |                   |
-| [Paper 3](#)    | 2022   | Description of the item in the list         |             |            |                   |
-
-
 ## Mixed-Multimodal Methods
 {% for post in site.publications reversed %}
   {% if type == 'mixed-methods' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-| Author          | Year   |  Title                                                       |  Venue      |   Hyperlink  |
-| ----------------| -------| ------------------------------------------------------------ | ------------|  ------------|  
-| [Paper 1](#)    | 2016   | Description of the item in the list                          |             |              |
-| [Paper 2](#)    | 2019   | Description of the item in the list                          |             |              |
-| [Paper 3](#)    | 2022   | Description of the item in the list                          |             |              |
