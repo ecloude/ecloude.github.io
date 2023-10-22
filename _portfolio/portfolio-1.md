@@ -1,6 +1,6 @@
 ---
 title: "Emotional Modelling to Enhance Learning with Games (AMELIA)"
-excerpt: 
+excerpt: "Measuring and modelling emotions as a nonlinear dynamical systems with a game-based learning environment"
 collection: portfolio
 ---
 
