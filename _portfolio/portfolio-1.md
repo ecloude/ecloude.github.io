@@ -1,6 +1,6 @@
 ---
-title: "Emotional Modelling to Enhance Learning with Games"
-excerpt: "Short description of portfolio item number 1"
+title: "Emotional Modelling to Enhance Learning with Games (AMELIA)"
+excerpt: 
 collection: portfolio
 ---
 
