@@ -7,7 +7,7 @@ venue: 'British Journal of Educational Technology'
 paperurl: 'http://ecloude.github.io/files/multimodal-learning-analytics-for-game-based-learning.pdf'
 citation: 'Emerson, A., Cloude, E. B., Lester, J., &amp; Azevedo, R. (2020). Multimodal learning analytics for game-based learning. British Journal of Educational Technology, 51(5), 1505-1526.'
 ---
-type:'MLA'
+type: 'MLA'
 ---
 [Download paper here](http://ecloude.github.io/files/multimodal-learning-analytics-for-game-based-learning.pdf)
 
