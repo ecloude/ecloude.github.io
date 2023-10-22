@@ -8,6 +8,3 @@ paperurl: 'http://ecloude.github.io/files/quantifying-scientific-reasoning-durin
 citation: 'Cloude, E. B., Dever, D. A., Wiedbusch, M. D., &amp; Azevedo, R. (2020, November). Quantifying scientific thinking using multichannel data with crystal island: Implications for individualized game-learning analytics. In Frontiers in Education (Vol. 5, p. 572546). Frontiers Media SA.'
 type: 'MLA'
 ---
-[Download paper here](http://ecloude.github.io/files/quantifying-scientific-reasoning-during-game-based-learning.pdf)
-
-Recommended citation: Cloude, E. B., Dever, D. A., Wiedbusch, M. D., & Azevedo, R. (2020, November). Quantifying scientific thinking using multichannel data with crystal island: Implications for individualized game-learning analytics. In Frontiers in Education (Vol. 5, p. 572546). Frontiers Media SA.
