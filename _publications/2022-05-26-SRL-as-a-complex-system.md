@@ -8,6 +8,3 @@ paperurl: 'http://ecloude.github.io/files/SRL-as-a-complex-system.pdf'
 citation: 'Dever, D. A., Amon, M. J., Vrzakova, H., Wiedbusch, M. D., Cloude, E. B., &amp; Azevedo, R. (2022). Capturing Sequences of learners&apos; self-regulatory interactions with instructional material during game-based learning using auto-recurrence quantification analysis. Frontiers in Psychology.'
 type: 'MLA'
 ---
-[Download paper here](http://ecloude.github.io/files/SRL-as-a-complex-system.pdf)
-
-Recommended citation: Dever, D. A., Amon, M. J., Vrzakova, H., Wiedbusch, M. D., Cloude, E. B., & Azevedo, R. (2022). Capturing Sequences of learners' self-regulatory interactions with instructional material during game-based learning using auto-recurrence quantification analysis. Frontiers in Psychology.
