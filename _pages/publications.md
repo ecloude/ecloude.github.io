@@ -16,13 +16,15 @@ Achieving this goal requires studying SRL comprehensively, as a process with fou
 {% endif %}
 
 ## Multimodal Learning Analytics (MLA)
-{% for post in site.publications reversed %}
-  {% if type == 'MLA' %}
-      {% include archive-single.html %}
-{% endif %}
+{% for post in site.publications %}
+  {% if post.type == 'MLA' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 ## Mixed-Multimodal Methods
-{% for post in site.publications reversed %}
-  {% if type == 'mixed-methods' %}
-      {% include archive-single.html %}
+{% for post in site.publications %}
+  {% if post.type == 'mixed-methods' %}
+    {% include archive-single.html %}
   {% endif %}
+{% endfor %}
