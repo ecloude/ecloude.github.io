@@ -19,7 +19,6 @@ Achieving this goal requires studying SRL comprehensively, as a process with fou
 {% for post in site.publications reversed %}
   {% if type == 'MLA' %}
       {% include archive-single.html %}
-  {% endif %}
 {% endfor %}
 
 ## Mixed-Multimodal Methods
