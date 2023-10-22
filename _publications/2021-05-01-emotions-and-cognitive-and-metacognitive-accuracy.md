@@ -8,6 +8,3 @@ paperurl: 'http://ecloude.github.io/files/emotions-and-cognitive-and-metacogniti
 citation: 'Taub, M., Azevedo, R., Rajendran, R., Cloude, E. B., Biswas, G., &amp; Price, M. J. (2021). How are students’ emotions related to the accuracy of their use of cognitive and metacognitive processes during learning with a hypermedia-based intelligent tutoring system? Learning and Instruction, 72, 101200.'
 type: 'MLA'
 ---
-[Download paper here](http://ecloude.github.io/files/emotions-and-cognitive-and-metacognitive-accuracy.pdf)
-
-Recommended citation: Taub, M., Azevedo, R., Rajendran, R., Cloude, E. B., Biswas, G., & Price, M. J. (2021). How are students’ emotions related to the accuracy of their use of cognitive and metacognitive processes during learning with a hypermedia-based intelligent tutoring system? Learning and Instruction, 72, 101200.
