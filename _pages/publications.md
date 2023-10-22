@@ -15,15 +15,14 @@ Achieving this goal requires studying SRL comprehensively, as a process with fou
   You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-## Multimodal Learning Analytics
+## Multimodal Learning Analytics (MLA)
 {% for post in site.publications reversed %}
   {% if type == 'MLA' %}
       {% include archive-single.html %}
-{% endfor %}
+{% endif %}
 
 ## Mixed-Multimodal Methods
 {% for post in site.publications reversed %}
   {% if type == 'mixed-methods' %}
       {% include archive-single.html %}
   {% endif %}
-{% endfor %}
