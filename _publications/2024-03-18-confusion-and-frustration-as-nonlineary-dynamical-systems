@@ -7,5 +7,5 @@ venue: 'International Conference on Knowledge and Learning Analytics (LAK)'
 paperurl: 'https://ecloude.github.io/files/lak24-32.pdf'
 citation: 'Cloude, E. B., Munshi, A., Andres, J. M. A., Ocumpaugh, J., Baker, R. S., &amp; Biswas, G. (2024). Exploring confusion and frustration as a non-linear dynamical systems. Proceedings of the 14th Learning Analytics
 and Knowledge Conference (pp. 1-12). ACM.'
-type: 'Mixed-MLA' # Correct placement for 'type'
+type: 'mixed-methods' # Correct placement for 'type'
 ---
