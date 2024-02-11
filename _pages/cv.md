@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV here](https://drive.google.com/file/d/1awKEfpDdoKyHpG0shuteW4vX4rx4US-2/view?usp=sharing) 
+[Download CV here](https://docs.google.com/document/d/1qQdMbIs_qMPjnwO6qBSBO4rIAowzMI-q/edit) 
 
