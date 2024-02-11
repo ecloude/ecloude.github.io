@@ -6,7 +6,7 @@ collection: portfolio
 
 <br/><img src='/images/antidote-game.jpg'>
 
-This research project (ID#: 101105874) deals with measuring and modeling emotions as nonlinear dynamical systems that manifest before, during, and after learners' interact with specific game mechanics with a game-based learning environments called [Antidote COVID-19](https://iamtheshield.com/). 
+This research project (ID#: 101105874) deals with measuring and modeling emotions as nonlinear dynamical systems that manifest before, during, and after learners' interact with specific game mechanics within game-based learning environments called [Antidote COVID-19](https://iamtheshield.com/) and [MediaWatch](https://webpages.tuni.fi/gamelab/2022/mediawatch/)
 
 To collect emotions, a mixed-multimodal methods approach is utilized, capturing a range of data channels, including video recordings of facial expressions of emotions and posture, audio recordings of emote- and think-alouds, and computer-screen recordings of learner's interactions with game-based mechanics, neuro-imaging data (NIRS and EEG), eye tracking, electrodermal signals, and heart rate during gameplay. 
 
