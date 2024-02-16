@@ -12,7 +12,7 @@ To collect emotions, a mixed-multimodal methods approach is utilized, capturing 
 
 Two experiments will take place in this project. One at Tampere University (TAU) in Finland and the other at the University of Graz in Austria.
  * TAU: A sample of 70 participants was collected using a quasiexperimental with a pre/post design. Participants played Antidote Covid-19 on an iPad and multiple measures were used to capture their cognitive and affective processes.
- * GRAZ: Taking place in Fall 2025; A sample of 60 participants will be collected using a 2x3 repeated measures with a pre/post design. Participants will play MediaWatch and we will assess relationships between two types of feedback (GBL scaffolds) and its relation to affective responses, cognition,   and learning outcomes.
+ * GRAZ: To be conducted in Fall 2024; A sample of 60 participants will be collected using a 2x3 repeated measures with a pre/post design. Participants will play MediaWatch and we will assess relationships between two types of feedback (GBL scaffolds) and its relation to affective responses, cognition, and learning outcomes. Multiple measures will be utilized including Near-infrared spectroscopy (NIRS).
 
 These data will be leveraged to study how multiple affective dimensions manifest during GBL, including expressive, affective, motivational, neurophysiological, and cognitive, to assess their relation to cognitive processes and learning outcomes. The implications of this work will guide how to design adaptive GBL mechanics that best support affective and cognitive facets of learning.
 
