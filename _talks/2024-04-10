@@ -1,1 +1,16 @@
+---
+title: "Reframing thinking about and modeling learning through complex dynamical systems"
+collection: talks
+type: "Webinar"
+permalink: /talks/2023-06-16-talk-1
+venue: "Society for Learning Analytics Research"
+date: 2024-04-10
+location: "remote"
+---
+
+Abstract:  Learning is a highly individual process of change that emerges from multiple interacting components (e.g. cognitive, social) that occur at varying levels (e.g., individual, group) and timescales (e.g. micro, meso, macro) in constantly changing environments. Due to its complexity, the theoretical assumptions that describe learning are difficult to computationally model, and many existing methodologies are limited by conventional statistics that do not adhere to these assumptions. In recent years, the learning analytics community has explored the potential of complex dynamical systems for modeling and analyzing learning processes. Complex dynamical systems (CDS) approach refers to theoretical views, largely from physics and biology, that preserve the complexity of learning and could be potentially useful in studying  socio-/ technical-/ material-/ symbolic systems that learn. 
+
+The integration of CDS into analytical and methodological tenets of LA research is ongoing. Yet, CDS concepts and accompanying methods remain mostly “under the radar” of a larger learning analytics community. In this webinar, we will introduce the main theoretical underpinnings and methodological toolkit of CDS, and highlight their relevance to and potential integration with learning analytics. We will present key opportunities for thinking about and modeling learning through CDS concepts and briefly review CDS-inspired research from works-in-progress presented at the latest workshop on CDS in learning analytics. 
+
+* Access video [here](https://www.youtube.com/watch?v=B4jfEuXISu0)
 
