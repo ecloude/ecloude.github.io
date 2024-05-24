@@ -17,6 +17,33 @@ install_github("FredHasselman/casnet")
 
 **Courses on Complexity Methods for Behavioural Science (complexity-methods.github.io), including R code and more.
 
+**Wavelet Analysis
+R
+Library(biwavelet) # cross-wavelet, wavelet coherence, wavelet clustering
+
+Python
+[Tutorial: ](https://github.com/regeirk/pycwt)
+pip install pycwt
+
+
+##Fractal Analysis
+R
+GitHub: Fractal Regression
+library(fractalRegression)
+library(fractal) # by Constantine and Percival (2017)
+
+Python
+pip install fractal-analysis
+
+pip install porespy # specific for box counting
+
+
+
+
+
+
+
+
 
 
 
