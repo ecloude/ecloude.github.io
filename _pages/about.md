@@ -19,7 +19,6 @@ My research is supported by the European Union and the Jacobs Foundation and has
 Outside of research, I love staying active and being in nature, reading, sports, and music. 
 
 Cheers!
-Liz
 
 
 <br/><img src='/images/IMG_9280.JPG'>
