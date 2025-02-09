@@ -21,6 +21,6 @@ These data will be leveraged to study how multiple affective dimensions manifest
 
   * Data management plan aligned with FAIR principles and the Academy of Finland Data Management guidelines can be found [here](https://drive.google.com/file/d/10TxAmMRpAzksR8msnFe0671mJ6VOqkN5/view?usp=sharing)
   * Project visibility [here](https://www.tuni.fi/en/research/emotional-modelling-enhance-learning-games)
-  * Data and Scripts are _Forthcoming_.
+  * Data and Scripts can be found at [this repository](https://github.com/ecloude/AMELIA).
 
 <br/><img src='/images/EUflag.png'>
