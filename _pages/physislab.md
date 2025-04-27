@@ -11,7 +11,7 @@ redirect_from:
 
 # Welcome to the PHYSIS Lab 🌿
 
-![PHYSIS Lab Logo](/assets/images/Physis_lab_logo.png)
+![PHYSIS Lab Logo](/images/Physis_lab_logo.png)
 
 **Flourishing Human Learning in the Age of Intelligent Systems**
 
