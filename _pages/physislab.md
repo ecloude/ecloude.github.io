@@ -11,8 +11,6 @@ redirect_from:
 
 # Welcome to the PHYSIS Lab 🌿
 
-![PHYSIS Lab Logo](/images/Physis_lab_logo.png)
-
 ---
 
 The PHYSIS Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
@@ -34,6 +32,8 @@ Our work investigates the dynamic interactions between human processes and artif
 
 Interested in collaborating?  
 📫 Email: [cloudeel@msu.edu](mailto:cloudeel@msu.edu)
+
+![PHYSIS Lab Logo](/images/Physis_lab_logo.png)
 
 ---
 
