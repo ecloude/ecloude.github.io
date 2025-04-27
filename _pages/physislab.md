@@ -21,7 +21,7 @@ redirect_from:
 
 The PHYSIS Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
 
-Our work investigates the dynamic interactions between human processes and artificial intelligence to build sustainable, adaptive educational ecosystems. PHYSIS draws from Greek philosophy and modern complexity science to imagine a future where learners, AI, and sustainability thrive together.
+Our work investigates the dynamic interactions between human processes and artificial intelligence to build sustainable, adaptive educational ecosystems. Our research is grounded in educational psychology theory and modern complexity science to imagine a future where learners, teachers, AI, and sustainability thrive together.
 
 ---
 
