@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "PHYSIS Lab"
+title: ""
 permalink: /physislab/
 author_profile: true
 redirect_from:
@@ -13,11 +13,7 @@ redirect_from:
 
 ![PHYSIS Lab Logo](/images/Physis_lab_logo.png)
 
-**Flourishing Human Learning in the Age of Intelligent Systems**
-
 ---
-
-## About the PHYSIS Lab
 
 The PHYSIS Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
 
@@ -28,7 +24,7 @@ Our work investigates the dynamic interactions between human processes and artif
 ## Bulletin Board 📌
 
 - **Recruiting undergraduate research assistants** for Fall 2025! [Apply Here](#)
-- **Research tasks** for Fall 2025! [Apply Here](#)
+- **Research Tasks** for Fall 2025! [Apply Here](#)
 - **Upcoming Talk**: *Examining the Sequential, Temporal, and Concurrent Interactions of Cognitive, Affective, Metacognitive, and Motivational Processes on Learning Outcomes* – Annual Meeting for the American Educational Research Association, April 2025
 - **Upcoming Talk**: *(Gen)AI Policy and Ethics in Higher Education: Preparing for the Future* – CREATE4STEM Institute, Michigan State University, April 2025
 
