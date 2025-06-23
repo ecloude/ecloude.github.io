@@ -21,8 +21,7 @@ Our work investigates the dynamic interactions between human processes and artif
 
 ## Bulletin Board 📌
 
-- **Recruiting undergraduate research assistants** for Fall 2025! [Apply Here](https://msu.co1.qualtrics.com/jfe/form/SV_3X9OTIUl5IrkoIK)
-- **Research Tasks** for Fall 2025! [Apply Here](#)
+- **Recruiting undergraduate research assistants** for Fall and Spring 2025! [Apply Here](https://msu.co1.qualtrics.com/jfe/form/SV_3X9OTIUl5IrkoIK)
 - **Upcoming Talk**: *Examining the Sequential, Temporal, and Concurrent Interactions of Cognitive, Affective, Metacognitive, and Motivational Processes on Learning Outcomes* – Annual Meeting for the American Educational Research Association, April 2025
 - **Upcoming Talk**: *(Gen)AI Policy and Ethics in Higher Education: Preparing for the Future* – CREATE4STEM Institute, Michigan State University, April 2025
 
