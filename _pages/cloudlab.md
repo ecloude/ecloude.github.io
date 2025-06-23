@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /physislab/
+permalink: /cloudlab/
 author_profile: true
 redirect_from:
   - /resume
@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-# Welcome to the PHYSIS Lab 🌿
+# Welcome to the CLOUD Lab 🌿
 
 ---
 
-The PHYSIS Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
+The CLOUD Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
 
 Our work investigates the dynamic interactions between human processes and artificial intelligence to build sustainable, adaptive educational ecosystems. Our research is grounded in educational psychology theory and modern complexity science to imagine a future where learners, teachers, AI, and sustainability thrive together.
 
@@ -32,8 +32,6 @@ Our work investigates the dynamic interactions between human processes and artif
 
 Interested in collaborating?  
 📫 Email: [cloudeel@msu.edu](mailto:cloudeel@msu.edu)
-
-![PHYSIS Lab Logo](/images/Physis_lab_logo.png)
 
 ---
 
