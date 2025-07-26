@@ -244,6 +244,14 @@ defaults:
       layout: resources
       author_profile: true
       share: true
+  # _CEP-416-730
+  - scope:
+      path: ""
+      type: cep-416-730
+    values:
+      layout: cep-416-730
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
