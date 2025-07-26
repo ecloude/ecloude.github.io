@@ -185,6 +185,9 @@ collections:
   Resources:
     output: true
     permalink: /:collection/:path/
+  CEP-416-730:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
