@@ -1,14 +1,21 @@
-/* --- TARGETED LAB PAGE BACKGROUND --- */
+/* --- CORRECTED GLOBAL AND TARGETED STYLES --- */
 
-/* 1. Ensure the body is a dark color for the bottom fade */
+/* 1. Global (Default) Styles for ALL Pages */
 body {
-    background-color: #0d0d0d; /* Deep charcoal/near-black */
-    background-image: none !important; /* Prevents unwanted background inheritance */
-    color: #e0e0e0;
+    /* Set a light color as the default background for all pages */
+    background-color: #ffffff; /* Default: White */
+    color: #333333; /* Default text: Dark Gray/Black */
+    background-image: none !important; /* Remove any previous background image */
 }
 
-/* 2. Style the Dedicated Background Container *ONLY* on the Lab Page */
-/* The .lab-page-bg class limits this style to only the lab page */
+/* 2. Target the Lab Page ONLY */
+/* When .lab-page-bg is present on the body, OVERRIDE the default color to dark */
+body.lab-page-bg {
+    background-color: #0d0d0d; /* Set body to dark for the lab page sky */
+    color: #e0e0e0; /* Set default text to light for lab page */
+}
+
+/* 3. Style the Dynamic Background Container *ONLY* on the Lab Page */
 .lab-page-bg .site-background {
     position: fixed; 
     top: 0;
@@ -17,37 +24,33 @@ body {
     height: 100%;
     z-index: -1; 
     
-    /* Apply your Ghibli Computational Image */
+    /* Apply your Ghibli Computational Image with the fade-to-dark gradient */
     background-image: 
-        /* 💡 NEW: Linear gradient to create the fade to a solid dark bottom */
         linear-gradient(to bottom, 
-            rgba(13, 13, 13, 0) 0%, /* Transparent at the top (over the image) */
-            rgba(13, 13, 13, 1) 100% /* Solid dark at the bottom */
+            rgba(13, 13, 13, 0) 0%, 
+            rgba(13, 13, 13, 1) 100% 
         ), 
-        url("/images/clouds_lab.png"); /* Your cloud image */
+        url("/images/clouds_lab.png"); 
     
     background-attachment: fixed;
-    
-    /* PINS THE IMAGE TO THE TOP and ensures the fade starts below it */
     background-position: center top; 
-    
-    /* Sets image size and allows horizontal tiling for the animation */
     background-size: auto 100vh;
     background-repeat: repeat-x;
-    
-    /* Apply the animation *ONLY* when this class is present */
     animation: cloud-drift 120s linear infinite;
 }
 
-/* Define the Animation (Still needed, but only applied above) */
-@keyframes cloud-drift {
-    0% { background-position-x: 0; }
-    100% { background-position-x: 100%; }
+/* 4. Hide the background container on all OTHER pages (where .lab-page-bg is missing) */
+body:not(.lab-page-bg) .site-background {
+    display: none; 
 }
 
-/* 3. Content Readability Box (Remains high-opacity for text) */
-.page__content, .page, #main, .markdown-body { 
-    background-color: rgba(10, 10, 10, 0.98); /* Nearly opaque dark box */
+/* 5. Content Readability Box (Needs to be dark for the LAB PAGE) */
+.lab-page-bg .page__content, 
+.lab-page-bg .page, 
+.lab-page-bg #main, 
+.lab-page-bg .markdown-body { 
+    /* Highly opaque dark box for readability on the lab page */
+    background-color: rgba(10, 10, 10, 0.98); 
     padding: 30px; 
     margin: 40px auto; 
     max-width: 900px;
@@ -56,7 +59,13 @@ body {
     color: #e0e0e0 !important; 
 }
 
-/* Ensure other pages without the .lab-page-bg class have a solid background */
-body:not(.lab-page-bg) .site-background {
-    display: none; /* Hide the background container on all other pages */
+/* 6. Animation Keyframes */
+@keyframes cloud-drift {
+    0% { background-position-x: 0; }
+    100% { background-position-x: 100%; }
+}
+
+/* 7. Ensure Headings are White ONLY on the lab page */
+.lab-page-bg h1, .lab-page-bg h2, .lab-page-bg h3, .lab-page-bg h4 {
+    color: #ffffff !important;
 }
