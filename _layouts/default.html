@@ -17,9 +17,8 @@ layout: compress
     <link rel="stylesheet" href="{{ '/assets/css/custom-lab-style.css' | relative_url }}">
   </head>
 
-  <body class="{{ page.custom_class }}"> 
+  <body> 
 
-    <div class="site-background"></div>
     {% include browser-upgrade.html %}
     
     {% include masthead.html %} 
@@ -27,6 +26,7 @@ layout: compress
     <div id="main" role="main" class="initial-content"> 
         {{ content }} 
     </div>
+
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
