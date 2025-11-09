@@ -1,62 +1,52 @@
-/* --- Ghibli Cloud Dynamic Background (Dark Mode with Computational Elements) --- */
+/* --- Ghibli Cloud Dynamic Background (Dark Mode) --- */
 
-/* 1. Define the subtle movement (cloud-drift) */
+/* 1. Animation and Body (Remains the same) */
 @keyframes cloud-drift {
     0% { background-position: 0 0; }
-    100% { background-position: 100% 0; } /* Shifts the background one full image width */
+    100% { background-position: 100% 0; }
 }
 
-/* 2. Apply the style to the main page body */
 body {
-    /* Use a very dark, deep color for the background that shows around the clouds */
-    background-color: #0d0d0d; /* A deep charcoal/near-black */
-    
-    /* **IMPORTANT**: Update this URL path to where you saved your new image */
+    background-color: #0d0d0d; 
     background-image: url("/images/clouds_lab.png"); 
-    
-    /* Crucial for seamless drift: it tiles the image horizontally */
     background-repeat: repeat-x; 
-    
-    /* Ensures the image fills the space vertically without distortion */
-    background-size: auto 100vh; /* Adjust 'auto' if the image needs to be larger/smaller */
-    
-    /* Apply the animation for a slow, continuous loop */
+    background-size: auto 100vh;
     animation: cloud-drift 120s linear infinite;
-    
-    /* Set default text color to a light gray/off-white for readability */
-    color: #e0e0e0;
-    
-    /* Smooth transitions for any hover effects if needed */
+    color: #e0e0e0; /* Default text is light */
     transition: background-color 0.3s ease;
 }
 
-/* 3. Ensure Readability for your Lab Page Content (Container Box) */
-/* These classes target typical content wrappers in Jekyll themes. You might need to
-   inspect your page to find the exact class that wraps your lab.md content. */
-.markdown-body, .page__content, .page, .wrap, #main { 
-    background-color: rgba(25, 25, 25, 0.85); /* Slightly darker, semi-transparent box */
-    padding: 30px; /* More padding for better aesthetics */
-    border-radius: 10px; /* Slightly more rounded corners */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6); /* Deeper shadow for pop-out effect */
-    margin: 40px auto; /* Center the content box with vertical margins */
-    max-width: 900px; /* Max width for readability */
-    line-height: 1.6; /* Better line spacing for dark backgrounds */
-    color: #e0e0e0; /* Ensure text inside the box is also light */
+
+/* 2. THE CRITICAL FIX: The Content Wrapper */
+/* We target common content wrappers and use a nearly opaque dark background */
+.page__content, .page, #main, .markdown-body { 
+    
+    /* ----------------------------------------------------- */
+    /* *** KEY ADJUSTMENT: Changed transparency from 0.85 to 0.98 *** */
+    /* The '0.98' makes the box 98% opaque, allowing the background to JUST barely show through */
+    background-color: rgba(10, 10, 10, **0.98**); 
+    /* ----------------------------------------------------- */
+
+    padding: 30px; 
+    border-radius: 10px; 
+    /* Increased shadow for better separation from the background */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.9); 
+    margin: 40px auto; 
+    max-width: 900px;
+    line-height: 1.6;
+    color: #e0e0e0; /* Ensure text inside the box is light */
 }
 
-/* Specific adjustments for headings if needed for dark mode */
-h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* Make headings pure white for contrast */
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* Subtle shadow for headings */
+/* 3. Force Text Colors (Ensures readability overrides theme defaults) */
+body p, body li, body a, body span {
+    color: #e0e0e0 !important;
 }
 
-/* Link colors for dark theme */
+h1, h2, h3, h4 {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
 a {
-    color: #87ceeb; /* A light sky blue for links */
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-a:hover {
-    color: #b0e0e6; /* Lighter blue on hover */
-    text-decoration: underline;
+    color: #87ceeb; /* Light blue links */
 }
