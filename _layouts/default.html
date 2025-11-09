@@ -19,15 +19,15 @@ layout: compress
 
   <body class="{{ page.custom_class }}"> 
 
-    <div class="site-background"> 
-        
-        {% include browser-upgrade.html %}
-        {% include masthead.html %}
+    <div class="site-background"></div>
+    {% include browser-upgrade.html %}
+    
+    {% include masthead.html %} 
 
-        <div id="main" role="main" class="initial-content"> 
-            {{ content }}
-        </div>
-        </div> <div class="page__footer">
+    <div id="main" role="main" class="initial-content"> 
+        {{ content }} 
+    </div>
+    <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
