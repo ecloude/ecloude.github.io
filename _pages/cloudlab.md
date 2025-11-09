@@ -1,7 +1,9 @@
 ---
-layout: archive
+title: "Computational Learning Organization Using Digital Software (CLOUDS)"
+layout: default
 title: ""
 permalink: /cloudlab/
+custom_class: lab-page-bg
 author_profile: true
 redirect_from:
   - /resume
