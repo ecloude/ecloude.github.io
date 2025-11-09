@@ -1,52 +1,62 @@
-/* --- Ghibli Cloud Dynamic Background (Dark Mode) --- */
+/* --- TARGETED LAB PAGE BACKGROUND --- */
 
-/* 1. Animation and Body (Remains the same) */
-@keyframes cloud-drift {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
-}
-
+/* 1. Ensure the body is a dark color for the bottom fade */
 body {
-    background-color: #0d0d0d; 
-    background-image: url("/images/clouds_lab.png"); 
-    background-repeat: repeat-x; 
-    background-size: auto 100vh;
-    animation: cloud-drift 120s linear infinite;
-    color: #e0e0e0; /* Default text is light */
-    transition: background-color 0.3s ease;
+    background-color: #0d0d0d; /* Deep charcoal/near-black */
+    background-image: none !important; /* Prevents unwanted background inheritance */
+    color: #e0e0e0;
 }
 
-
-/* 2. THE CRITICAL FIX: The Content Wrapper */
-/* We target common content wrappers and use a nearly opaque dark background */
-.page__content, .page, #main, .markdown-body { 
+/* 2. Style the Dedicated Background Container *ONLY* on the Lab Page */
+/* The .lab-page-bg class limits this style to only the lab page */
+.lab-page-bg .site-background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
     
-    /* ----------------------------------------------------- */
-    /* *** KEY ADJUSTMENT: Changed transparency from 0.85 to 0.98 *** */
-    /* The '0.98' makes the box 98% opaque, allowing the background to JUST barely show through */
-    background-color: rgba(10, 10, 10, **0.98**); 
-    /* ----------------------------------------------------- */
+    /* Apply your Ghibli Computational Image */
+    background-image: 
+        /* 💡 NEW: Linear gradient to create the fade to a solid dark bottom */
+        linear-gradient(to bottom, 
+            rgba(13, 13, 13, 0) 0%, /* Transparent at the top (over the image) */
+            rgba(13, 13, 13, 1) 100% /* Solid dark at the bottom */
+        ), 
+        url("/images/clouds_lab.png"); /* Your cloud image */
+    
+    background-attachment: fixed;
+    
+    /* PINS THE IMAGE TO THE TOP and ensures the fade starts below it */
+    background-position: center top; 
+    
+    /* Sets image size and allows horizontal tiling for the animation */
+    background-size: auto 100vh;
+    background-repeat: repeat-x;
+    
+    /* Apply the animation *ONLY* when this class is present */
+    animation: cloud-drift 120s linear infinite;
+}
 
+/* Define the Animation (Still needed, but only applied above) */
+@keyframes cloud-drift {
+    0% { background-position-x: 0; }
+    100% { background-position-x: 100%; }
+}
+
+/* 3. Content Readability Box (Remains high-opacity for text) */
+.page__content, .page, #main, .markdown-body { 
+    background-color: rgba(10, 10, 10, 0.98); /* Nearly opaque dark box */
     padding: 30px; 
-    border-radius: 10px; 
-    /* Increased shadow for better separation from the background */
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.9); 
     margin: 40px auto; 
     max-width: 900px;
-    line-height: 1.6;
-    color: #e0e0e0; /* Ensure text inside the box is light */
+    border-radius: 10px; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.9);
+    color: #e0e0e0 !important; 
 }
 
-/* 3. Force Text Colors (Ensures readability overrides theme defaults) */
-body p, body li, body a, body span {
-    color: #e0e0e0 !important;
-}
-
-h1, h2, h3, h4 {
-    color: #ffffff !important;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-}
-
-a {
-    color: #87ceeb; /* Light blue links */
+/* Ensure other pages without the .lab-page-bg class have a solid background */
+body:not(.lab-page-bg) .site-background {
+    display: none; /* Hide the background container on all other pages */
 }
