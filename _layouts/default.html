@@ -1,25 +1,33 @@
 ---
 layout: compress
 ---
-
 {% include base_path %}
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     {% include head.html %}
     {% include head/custom.html %}
+    
     <link rel="stylesheet" href="{{ '/assets/css/custom-lab-style.css' | relative_url }}">
   </head>
 
-  <body>
+  <body class="{{ page.custom_class }}"> 
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <div class="site-background"> 
+        
+        {% include browser-upgrade.html %}
+        {% include masthead.html %}
 
-    {{ content }}
-
-    <div class="page__footer">
+        <div id="main" role="main" class="initial-content"> 
+            {{ content }}
+        </div>
+        </div> <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
