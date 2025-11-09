@@ -14,11 +14,14 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     
-    <link rel="stylesheet" href="{{ '/assets/css/custom-lab-style.css' | relative_url }}">
+    {% if page.custom_class == 'lab-page-bg' %}
+      {% include lab-background-style.html %} 
+    {% endif %}
   </head>
 
-  <body> 
+  <body class="{{ page.custom_class }}"> 
 
+    <div class="site-background"></div>
     {% include browser-upgrade.html %}
     
     {% include masthead.html %} 
