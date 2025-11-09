@@ -4,6 +4,8 @@ layout: default
 permalink: /cloudlab/
 custom_class: lab-page-bg
 author_profile: true
+redirect_from:
+  - /resume
 ---
 
 {% include base_path %}
