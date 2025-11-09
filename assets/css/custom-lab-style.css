@@ -1,0 +1,36 @@
+/* --- Ghibli Cloud Dynamic Background --- */
+
+/* 1. Define the subtle movement (cloud-drift) */
+@keyframes cloud-drift {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; } /* Shifts the background one full image width */
+}
+
+/* 2. Apply the style to the main page body */
+body {
+    /* **IMPORTANT**: Update this URL path to your image location */
+    background-image: url("/images/clouds_lab.png"); 
+    
+    /* Crucial for the drift animation: it makes the image tile horizontally */
+    background-repeat: repeat-x; 
+    
+    /* Ensures the image fills the space vertically */
+    background-size: auto 100vh; 
+    
+    /* Apply the animation: 120s duration for a very slow, seamless loop */
+    animation: cloud-drift 120s linear infinite;
+    
+    /* Fallback background color in case the image fails to load */
+    background-color: #f0f8ff; /* A light, airy sky color */
+}
+
+/* 3. Ensure Readability for your Lab Page Content */
+/* This targets the main wrapper where your lab.md content is rendered */
+/* This class might be different (e.g., .content, .page-wrapper), 
+   but .markdown-body is a good general guess. */
+.markdown-body { 
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white box for text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
