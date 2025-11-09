@@ -1,36 +1,35 @@
-/* --- Ghibli Cloud Dynamic Background --- */
+/* --- Ghibli Cloud Dynamic Background (Dark Mode) --- */
 
 /* 1. Define the subtle movement (cloud-drift) */
 @keyframes cloud-drift {
     0% { background-position: 0 0; }
-    100% { background-position: 100% 0; } /* Shifts the background one full image width */
+    100% { background-position: 100% 0; }
 }
 
 /* 2. Apply the style to the main page body */
 body {
-    /* **IMPORTANT**: Update this URL path to your image location */
-    background-image: url("/images/clouds_lab.png"); 
+    /* **NEW: Use a dark color for the sky/background** */
+    background-color: #121212; /* A dark, almost black color (common dark mode background) */
     
-    /* Crucial for the drift animation: it makes the image tile horizontally */
-    background-repeat: repeat-x; 
+    /* Ensure the cloud image is a PNG with transparency, or the image itself is dark */
+    background-image: url("images/clouds_lab.png"); 
     
-    /* Ensures the image fills the space vertically */
-    background-size: auto 100vh; 
+    background-repeat: repeat-x;
+    background-size: auto 100vh;
     
-    /* Apply the animation: 120s duration for a very slow, seamless loop */
+    /* Apply the animation */
     animation: cloud-drift 120s linear infinite;
     
-    /* Fallback background color in case the image fails to load */
-    background-color: #f0f8ff; /* A light, airy sky color */
+    /* IMPORTANT for Dark Background: Make text readable */
+    color: #f0f0f0; /* Set default text color to a light gray/off-white */
 }
 
 /* 3. Ensure Readability for your Lab Page Content */
-/* This targets the main wrapper where your lab.md content is rendered */
-/* This class might be different (e.g., .content, .page-wrapper), 
-   but .markdown-body is a good general guess. */
-.markdown-body { 
-    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white box for text */
+/* This wrapper ensures your main content blocks stand out */
+.markdown-body, .page, .content-wrapper { 
+    /* Use a slightly darker, semi-transparent box for content */
+    background-color: rgba(30, 30, 30, 0.85); 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Stronger shadow to pop against dark background */
 }
