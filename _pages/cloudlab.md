@@ -1,5 +1,5 @@
 ---
-title: "Computational Learning Organization Using Digital Software (CLOUDS)"
+title: "CLOUDS Laboratory"
 layout: default
 permalink: /cloudlab/
 custom_class: lab-page-bg
@@ -10,11 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-# Welcome to the CLOUD Lab 🌿
+# Welcome to the Computational Learning Organization Using Digital Software (CLOUDS) Lab 🌿
 
 ---
 
-The CLOUD Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
+The CLOUDS Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
 
 Our work investigates the dynamic interactions between human processes and artificial intelligence to build sustainable, adaptive educational ecosystems. Our research is grounded in educational psychology theory and modern complexity science to imagine a future where learners, teachers, AI, and sustainability thrive together.
 
