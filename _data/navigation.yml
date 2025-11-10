@@ -15,5 +15,8 @@ main:
   - title: "Resources"
     url: /resources/
 
-  - title: CLOUD Lab
+  - title: CLOUDS Lab
     url: /cloudlab/
+
+  - title: Teaching
+    url: /teaching/
