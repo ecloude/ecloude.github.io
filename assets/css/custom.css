@@ -45,13 +45,19 @@ body.lab-page-bg {
      * We use the simplest, absolute path because your baseurl is ""
      * This path is correct. If it fails, the image file is not at this location.
     */
+    /* In /assets/css/custom.css, inside the .lab-page-bg .site-background rule: */
+
     background-image:
         linear-gradient(to bottom, 
             rgba(13, 13, 13, 0) 0%, 
             rgba(13, 13, 13, 1) 100% 
         ), 
-        url("https://github.com/ecloude/ecloude.github.io/blob/master/assets/images/clouds_lab.png") !important; 
-        
+        /* * This is the simplest relative path. It assumes the CSS file 
+         * (in /assets/css/) goes up one level (..) and then down 
+         * into /assets/images/.
+        */
+        url("assets/images/clouds_lab.png") !important;
+    
     background-attachment: fixed !important;
     background-position: center top !important; 
     background-size: auto 100vh !important;
