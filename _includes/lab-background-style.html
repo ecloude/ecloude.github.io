@@ -5,52 +5,18 @@
     100% { background-position-x: 100%; }
 }
 
-/* ---------------------------------------------------- */
-/* --- 2. RESTORATION CSS (FORCING LIGHT MODE) --- */
-/* ---------------------------------------------------- */
-
-/* This forces all non-lab pages to have a white background */
-body:not(.lab-page-bg) {
-    background-color: #ffffff !important;
-    color: #333 !important;
-}
-/* This FORCES the theme's main content container to be white */
-body:not(.lab-page-bg) #main,
-body:not(.lab-page-bg) .page__content {
-    background: #ffffff !important;
-    color: #333 !important;
-}
-/* This FORCES the theme's footer to be light */
-body:not(.lab-page-bg) .page__footer {
-    background: #f3f3f3 !important; /* A light gray */
-    color: #333 !important;
-}
-/* Hides the background layer on non-lab pages */
-body:not(.lab-page-bg) .site-background {
-    display: none !important;
-}
-
-/* ---------------------------------------------------- */
-/* --- 3. TARGETED LAB PAGE STYLES (CLOUDS PAGE ONLY) --- */
-/* ---------------------------------------------------- */
-
-/* Lab page body (dark sky) */
+/* 2. TARGETED LAB PAGE STYLES */
 body.lab-page-bg {
     background-color: #0d0d0d !important;
     color: #e0e0e0 !important;
 }
-
-/* Lab page fixed background layer */
 .lab-page-bg .site-background {
     position: fixed !important; 
     top: 0; left: 0; width: 100%; height: 100%;
     z-index: -1 !important; 
     display: block !important;
     
-    /* ** THE FINAL, CORRECT PATH **
-    Since baseurl is "", we use the simple, absolute root path.
-    NO Liquid variables.
-    */
+    /* THE FINAL, CORRECT PATH: No Liquid. Just the absolute path. */
     background-image:
         linear-gradient(to bottom, 
             rgba(13, 13, 13, 0) 0%, 
@@ -64,9 +30,6 @@ body.lab-page-bg {
     background-repeat: repeat-x !important;
     animation: cloud-drift 120s linear infinite !important;
 }
-
-/* Lab page content box (dark, readable) */
-/* We target #main, as it's the theme's container */
 .lab-page-bg #main,
 .lab-page-bg .page__content { 
     background-color: rgba(10, 10, 10, 0.98) !important; 
@@ -77,8 +40,6 @@ body.lab-page-bg {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.9) !important;
     color: #e0e0e0 !important; 
 }
-
-/* Lab page headings/links */
 .lab-page-bg h1, .lab-page-bg h2, .lab-page-bg h3, .lab-page-bg h4 {
     color: #ffffff !important;
 }
