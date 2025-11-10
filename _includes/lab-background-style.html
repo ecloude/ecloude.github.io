@@ -1,28 +1,31 @@
 <style>
-/* 1. ANIMATION KEYFRAMES (Necessary for horizontal movement) */
+/* 1. ANIMATION KEYFRAMES */
 @keyframes cloud-drift {
     0% { background-position-x: 0; }
     100% { background-position-x: 100%; }
 }
 
 /* ---------------------------------------------------- */
-/* --- 2. RESTORATION CSS (APPLIED TO ALL OTHER PAGES) --- */
+/* --- 2. RESTORATION CSS (FORCING LIGHT MODE) --- */
 /* ---------------------------------------------------- */
 
-/* If the body does NOT have the 'lab-page-bg' class, force all main elements to WHITE */
+/* This forces all non-lab pages to have a white background */
 body:not(.lab-page-bg) {
-    background-color: #ffffff !important; /* Force global background to white */
-    color: #333333 !important; /* Force text to dark */
+    background-color: #ffffff !important;
+    color: #333 !important;
 }
-body:not(.lab-page-bg) #main, 
-body:not(.lab-page-bg) .page__footer,
-body:not(.lab-page-bg) .initial-content {
-    background-color: #ffffff !important; /* Force main content area to white */
-    color: #333333 !important; /* Ensure content text is dark */
-    background-image: none !important;
+/* This FORCES the theme's main content container to be white */
+body:not(.lab-page-bg) #main,
+body:not(.lab-page-bg) .page__content {
+    background: #ffffff !important;
+    color: #333 !important;
 }
-
-/* Hide the background layer on non-lab pages */
+/* This FORCES the theme's footer to be light */
+body:not(.lab-page-bg) .page__footer {
+    background: #f3f3f3 !important; /* A light gray */
+    color: #333 !important;
+}
+/* Hides the background layer on non-lab pages */
 body:not(.lab-page-bg) .site-background {
     display: none !important;
 }
@@ -31,42 +34,30 @@ body:not(.lab-page-bg) .site-background {
 /* --- 3. TARGETED LAB PAGE STYLES (CLOUDS PAGE ONLY) --- */
 /* ---------------------------------------------------- */
 
-/* LAB PAGE BODY STYLES: Sets the overall dark sky color */
+/* Lab page body (dark sky) */
 body.lab-page-bg {
-    background-color: #0d0d0d !important; 
-    color: #e0e0e0 !important; /* Light text for readability */
+    background-color: #0d0d0d !important;
+    color: #e0e0e0 !important;
 }
 
-/* DEDICATED BACKGROUND LAYER (Fixed Position & Animation) */
-/* 3. DEDICATED BACKGROUND LAYER (Fixed Position & Animation) */
+/* Lab page fixed background layer */
 .lab-page-bg .site-background {
     position: fixed !important; 
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
+    top: 0; left: 0; width: 100%; height: 100%;
     z-index: -1 !important; 
     display: block !important;
     
-    /* CRITICAL FIX: The background-image property is now a single, comma-separated list.
-       The browser will try each image URL in order until one is successfully loaded.
-       (The linear-gradient is applied over ALL images.) 
+    /* ** THE FINAL, CORRECT PATH **
+    Since baseurl is "", we use the simple, absolute root path.
+    NO Liquid variables.
     */
     background-image:
-        /* FADE GRADIENT */
         linear-gradient(to bottom, 
             rgba(13, 13, 13, 0) 0%, 
             rgba(13, 13, 13, 1) 100% 
         ), 
-        /* Fallback 1: The site.baseurl structure */
-        url("{{ site.baseurl }}/assets/images/clouds_lab.png") !important,
+        url("/assets/images/clouds_lab.png") !important; 
         
-        /* Fallback 2: The absolute root path */
-        url("/assets/images/clouds_lab.png") !important,
-        
-        /* Fallback 3: The site.url + site.baseurl structure */
-        url("{{ site.url }}{{ site.baseurl }}/assets/images/clouds_lab.png") !important;
-    
     background-attachment: fixed !important;
     background-position: center top !important; 
     background-size: auto 100vh !important;
@@ -74,11 +65,10 @@ body.lab-page-bg {
     animation: cloud-drift 120s linear infinite !important;
 }
 
-    
-/* CONTENT READABILITY BOX (Dark, Opaque Box on Lab Page) */
-.lab-page-bg #main, 
-.lab-page-bg .page__content, 
-.lab-page-bg .initial-content { 
+/* Lab page content box (dark, readable) */
+/* We target #main, as it's the theme's container */
+.lab-page-bg #main,
+.lab-page-bg .page__content { 
     background-color: rgba(10, 10, 10, 0.98) !important; 
     padding: 30px !important; 
     margin: 40px auto !important; 
@@ -88,7 +78,7 @@ body.lab-page-bg {
     color: #e0e0e0 !important; 
 }
 
-/* Headings and Links on Lab Page */
+/* Lab page headings/links */
 .lab-page-bg h1, .lab-page-bg h2, .lab-page-bg h3, .lab-page-bg h4 {
     color: #ffffff !important;
 }
