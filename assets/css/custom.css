@@ -48,12 +48,6 @@ body.lab-page-bg {
     
     background-repeat: repeat-x !important;
     
-    /* UPDATED: Animation is now 2x faster (60s) */
-    animation-name: cloud-drift !important;
-    animation-duration: 60s !important;
-    animation-timing-function: linear !important;
-    animation-iteration-count: infinite !important;
-    
     /* This locks the body and prevents IT from scrolling */
     overflow: hidden !important;
 }
