@@ -1,73 +1,56 @@
 /* --- 1. THEME RESTORATION (FORCING LIGHT MODE) --- */
 /* This is the default for all pages that ARE NOT the lab page. */
 
-/* Force light background on body */
 body:not(.lab-page-bg) {
-    background-color: #ffffff !important;
+    background: #ffffff !important; /* Use shorthand for highest priority */
     color: #333 !important;
 }
-/* Force light background on theme's structural elements */
 body:not(.lab-page-bg) #main,
-body:not(.lab-page-bg) .page__content,
-body:not(.lab-page-bg) .initial-content,
 body:not(.lab-page-bg) .page__footer {
-    background-color: #ffffff !important;
+    background: #ffffff !important;
     color: #333 !important;
-    background-image: none !important;
-}
-/* Hide the background layer on non-lab pages */
-body:not(.lab-page-bg) .site-background {
-    display: none !important;
 }
 
 /* --- 2. TARGETED LAB PAGE STYLES (CLOUDS PAGE ONLY) --- */
 
-/* Keyframes for the animation */
 @keyframes cloud-drift {
     0% { background-position-x: 0; }
     100% { background-position-x: 100%; }
 }
 
-/* Lab page body (dark sky) */
+/* Lab page body (dark sky AND CLOUDS) */
 body.lab-page-bg {
-    background-color: #0d0d0d !important;
     color: #e0e0e0 !important;
-}
-
-/* Lab page fixed background layer */
-.lab-page-bg .site-background {
-    position: fixed !important; 
-    top: 0; left: 0; width: 100%; height: 100%;
-    z-index: -1 !important; 
-    display: block !important;
     
-    /* * THE FINAL IMAGE PATH.
-     * We use the simplest, absolute path because your baseurl is ""
-     * This path is correct. If it fails, the image file is not at this location.
+    /* * THE FINAL FIX: 
+     * We combine all background properties into ONE rule.
+     * This is the highest-priority way to set a background
+     * and will override your theme's defaults.
     */
-    /* In /assets/css/custom.css, inside the .lab-page-bg .site-background rule: */
-
-    background-image:
+    background:
+        /* 1. The Gradient (top layer) */
         linear-gradient(to bottom, 
             rgba(13, 13, 13, 0) 0%, 
             rgba(13, 13, 13, 1) 100% 
-        ), 
-        /* * This is the simplest relative path. It assumes the CSS file 
-         * (in /assets/css/) goes up one level (..) and then down 
-         * into /assets/images/.
-        */
-        url("https://ecloude.github.io/assets/images/clouds_lab.png") !important;
-    
+        ),
+        /* 2. The Image URL (middle layer) */
+        url("https://ecloude.github.io/assets/images/clouds_lab.png"),
+        /* 3. The Fallback Color (bottom layer) */
+        #0d0d0d !important;
+        
+    /* Additional properties for the background */
     background-attachment: fixed !important;
     background-position: center top !important; 
     background-size: auto 100vh !important;
     background-repeat: repeat-x !important;
     animation: cloud-drift 120s linear infinite !important;
+    
+    /* This locks the body and prevents IT from scrolling */
+    overflow: hidden !important;
 }
 
-/* Lab page content box (dark, readable) */
-.lab-page-bg #main,
-.lab-page-bg .page__content { 
+/* Lab page content box (NOW SCROLLABLE) */
+.lab-page-bg #main { 
     background-color: rgba(10, 10, 10, 0.98) !important; 
     padding: 30px !important; 
     margin: 40px auto !important; 
@@ -75,6 +58,10 @@ body.lab-page-bg {
     border-radius: 10px !important; 
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.9) !important;
     color: #e0e0e0 !important; 
+    
+    /* This makes the CONTENT BOX scroll, not the page */
+    height: 90vh !important;
+    overflow-y: auto !important;
 }
 
 /* Lab page headings/links */
