@@ -35,7 +35,7 @@ body.lab-page-bg {
             rgba(13, 13, 13, 1) 100% 
         ),
         /* 2. The Image URL (middle layer) */
-        url("https://ecloude.github.io/assets/images/clouds_lab.png"),
+        url("https://ecloude.github.io/assets/images/clouds_lab_imp.png"),
         /* 3. The Fallback Color (bottom layer) */
         #0d0d0d !important;
         
