@@ -56,7 +56,7 @@ body.lab-page-bg {
          * (in /assets/css/) goes up one level (..) and then down 
          * into /assets/images/.
         */
-        url("/assets/images/clouds_lab.png") !important;
+        url("https://ecloude.github.io/assets/images/clouds_lab.png") !important;
     
     background-attachment: fixed !important;
     background-position: center top !important; 
