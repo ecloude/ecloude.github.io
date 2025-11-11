@@ -10,9 +10,12 @@ redirect_from:
 
 {% include base_path %}
 
-# Welcome to the Computational Learning Organization Using Digital Software (CLOUDS) Lab 🌿
+# We are the Computational Learning Organization Using Digital Software (CLOUDS) Lab ☁️
 
 ---
+Like the clouds floating in the sky, modern digital systems are vast, complex, and built from the ground up. The CLOUDS Lab exists to understand, model, and ethically shape these systems.
+
+We are an interdisciplinary group of researchers, scientists, and critical thinkers focused on the intersection of **Educational Technology, Self-regulated Learning, and Artificial Intelligence**.
 
 The CLOUDS Lab explores how emotion, cognition, self-regulation, and motivation shape learning in complex, technology-enhanced environments.
 
