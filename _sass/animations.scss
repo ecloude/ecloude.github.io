@@ -1,0 +1,38 @@
+/* ==========================================================================
+   ANIMATIONS
+   ========================================================================== */
+
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* --- Custom CLOUDS Lab Page Animation --- */
+
+/* 1. Define the animation keyframes */
+@keyframes cloud-drift {
+    0% { background-position-x: 0; }
+    100% { background-position-x: 200%; }
+}
+
+/* 2. Apply the animation ONLY to the lab page body */
+/* This targets the body tag when it has the .lab-page-bg class */
+body.lab-page-bg {
+    animation-name: cloud-drift;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
