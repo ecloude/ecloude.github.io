@@ -15,7 +15,8 @@ body:not(.lab-page-bg) .page__footer {
 
 @keyframes cloud-drift {
     0% { background-position-x: 0; }
-    100% { background-position-x: 100%; }
+    /* UPDATED: Clouds now drift 2x as far for a better loop */
+    100% { background-position-x: 200%; }
 }
 
 /* Lab page body (dark sky AND CLOUDS) */
@@ -41,9 +42,14 @@ body.lab-page-bg {
     /* Additional properties for the background */
     background-attachment: fixed !important;
     background-position: center top !important; 
-    background-size: auto 100vh !important;
+    
+    /* UPDATED: Changed from 100vh to 100% for clarity */
+    background-size: auto 100% !important;
+    
     background-repeat: repeat-x !important;
-    animation: cloud-drift 120s linear infinite !important;
+    
+    /* UPDATED: Animation is now 2x faster (60s) */
+    animation: cloud-drift 60s linear infinite !important;
     
     /* This locks the body and prevents IT from scrolling */
     overflow: hidden !important;
