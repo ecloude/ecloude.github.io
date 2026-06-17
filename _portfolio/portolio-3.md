@@ -31,7 +31,7 @@ The findings of this work will provide insight into the role of affective proces
 
 Publications on this Work:
 * Siuko, J., Cloude, E., & Kiili, K. (2024). Improving critical graph-reading skills: The potential might lie in game-based learning. CEUR Workshop Proceedings, 3669, 79–87.
-* Cloude, E. B., Kormann, E., Steiner, M., Lindstedt, A., Kiili, K., & Ninaus, M. (2024). The role of feedback type and task performance on concurrent emotions and interest during game-based learning. In F. Bellotti, M. Ninaus, & P. Dondio (Eds.), Games and Learning Alliance (Lecture Notes in Computer Science, Vol. 15348, pp. 101–111). Springer, Cham. [PDF](https://ecloude.github.io/files/the_effect_of_feedback.pdf)
+* Cloude, E. B., Kormann, E., Steiner, M., Lindstedt, A., Kiili, K., & Ninaus, M. (2024). The role of feedback type and task performance on concurrent emotions and interest during game-based learning. In F. Bellotti, M. Ninaus, & P. Dondio (Eds.), Games and Learning Alliance (Lecture Notes in Computer Science, Vol. 15348, pp. 101–111). Springer, Cham. [LINK TO PDF](https://ecloude.github.io/files/the_effect_of_feedback.pdf).
   
 
 
