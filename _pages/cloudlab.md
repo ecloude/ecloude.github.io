@@ -10,19 +10,21 @@ redirect_from:
 
 {% include base_path %}
 
-# We are the Computational Learning Organization Using Digital Software (CLOUDS) Lab ☁️
+# We are the CLOUDS Lab (Computational Learning Organization Using Digital Software) ☁️
 
 ---
-Learning is not a single point of data. It is an organized, interconnected, and dynamic system. Like the atmosphere, it is composed of cognitive, metacognitive, affective, and motivational currents.
+Learning is not a single point of data. It is an organized, interconnected, and dynamic system made up of cognitive, metacognitive, affective, and motivational components, all working together. Much like the atmosphere, learning emerges through the constant interaction between the external environment and internal processes.
 
-At the CLOUDS Lab, we model this architecture. We are an interdisciplinary group dedicated to advancing the science of learning by leveraging educational technology, advanced computational methods, and mixed multimodal data.
+Clouds form the same way. Water vapor cools and gathers around tiny particles in the air, taking visible shape only when temperature, humidity, and air movement line up. Learning forms when thinking (cognition) takes shape around moments of self-monitoring and reflection (metacognition), shaped by emotion (affect) and fueled by motivation. Change one part, and the whole system shifts — which is why we study learning as a whole, not in isolated pieces.
 
-Our mission is to comprehensively explore the extent to which educational technologies can effectively support the complex organization of teaching and learning. We build and test adaptive, personalized, and context-aware environments designed to support the entire human—their needs, their well-being, and their potential as independent, lifelong learners.
+At the CLOUDS Lab, we aim to model this complex architecture. We are an interdisciplinary group dedicated to advancing the science of learning by leveraging educational technology, advanced computational methods, and mixed multimodal data.
+
+Our mission is to comprehensively explore the extent to which educational technologies can effectively support the complex organization of teaching and learning. We build and test adaptive, personalized, and context-aware environments designed to support the entire human, including their learning needs, well-being, and potential as independent, lifelong learners.
 
 ---
 
 # Our Research
-Our work investigates the fundamental question: How can we build learning systems that empower human development and support data-informed educators?
+Our work investigates the fundamental question: How can we build learning ecosystems that empower human development and support data-informed educators?
 
 ## Pillar I: Modeling the (Whole) Learner
 We develop computational models that move beyond simple "knowledge-tacking." Our models integrate the cognitive (what a learner knows), the metacognitive (how they plan and reflect), the affective (how they feel), and the motivational (why they persist) in relation to contextual demands.
@@ -54,9 +56,9 @@ To ensure your email is read, please:
 
 ## Bulletin Board 📌
 
-- **Recruiting undergraduate research assistants** for Fall and Spring 2026! [Apply Here](https://msu.co1.qualtrics.com/jfe/form/SV_3X9OTIUl5IrkoIK)
+- **Recruiting undergraduate research assistants** for Fall 2026 and Spring 2027! [Apply Here](https://msu.co1.qualtrics.com/jfe/form/SV_3X9OTIUl5IrkoIK)
 - **Upcoming Paper Presentation**: *Automatically detecting Emotions during Game-based Learning using Large Language Models and Concurrent Verbal Protocols* – Annual Meeting for the American Educational Research Association, April 2026
-- **Upcoming Talk**: *Artificial Intelligence in Higher Education Panel* – College of Education, Michigan State University, October 2025
+- **Upcoming Publication**: *A Balance between Stability and Flexibility: Adaptive Self-regulated Learning Processes during Game-based Learning* – Published in the British Journal of Educational Technology, In Press
 
 ---
 
