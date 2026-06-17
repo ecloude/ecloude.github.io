@@ -4,7 +4,7 @@ excerpt: "A multi-study research program examining how task design, misleading g
 collection: portfolio
 ---
 
-<br/><img src='/images/antidote-game.jpg'>
+<br/><img src='/images/MediaWatch.jpg'>
 
 **Funding period: 09/2023 - Present**
 
@@ -28,10 +28,9 @@ Present Study:
 The findings of this work will provide insight into the role of affective processes on cognition and learning outcomes with game-based learning environments
   * Data management plan aligned with FAIR principles and the Academy of Finland Data Management guidelines can be found [here](https://drive.google.com/file/d/10TxAmMRpAzksR8msnFe0671mJ6VOqkN5/view?usp=sharing)
   * Project visibility [here](https://www.tuni.fi/en/research/emotional-modelling-enhance-learning-games)
-  * Data and Scripts can be found at [this repository](https://github.com/ecloude/AMELIA).
 
 Publications on this Work:
-* Siuko, J., Cloude, E., & Kiili, K. (2024). Improving critical graph reading skills: The potential might lie in game-based learning. CEUR Workshop Proceedings, 3669, 79–87.
+* Siuko, J., Cloude, E., & Kiili, K. (2024). Improving critical graph-reading skills: The potential might lie in game-based learning. CEUR Workshop Proceedings, 3669, 79–87.
 * Cloude, E. B., Kormann, E., Steiner, M., Lindstedt, A., Kiili, K., & Ninaus, M. (2024). The role of feedback type and task performance on concurrent emotions and interest during game-based learning. In F. Bellotti, M. Ninaus, & P. Dondio (Eds.), Games and Learning Alliance (Lecture Notes in Computer Science, Vol. 15348, pp. 101–111). Springer, Cham.
 
-<br/><img src='/images/EUflag.png'>
+
