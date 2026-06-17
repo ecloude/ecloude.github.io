@@ -3,10 +3,13 @@ title: "Black-Box Tutor: An AI chatbot for Scaffolding Mechanistic Reasoning and
 excerpt: "A Socratic AI chatbot that detects when students 'black-box' a chemical mechanism, asserting an outcome without explaining the underlying causal process, and prompts them toward more complete mechanistic explanations."
 collection: portfolio
 ---
+
+
 <br/><img src='/images/antidote-game.jpg'>
 
+
 **Funding period: 01/2026 - Present**
-**Supported by the College of Education at Michigan State University
+**Supported by the College of Education at Michigan State University**
 
 One of the goals of science education is to build students’ knowledge and reasoning about how and why things happen, i.e., mechanistic explanations. Chatbots, such as large language models (LLMs), have 
 become increasingly integrated into higher education chemistry courses to support students’ explanations; however, it raises questions about how LLMs can support students’ learning about complex topics during mechanistic explanations about 
