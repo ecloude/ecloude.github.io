@@ -23,4 +23,8 @@ These data will be leveraged to study how multiple affective dimensions manifest
   * Project visibility [here](https://www.tuni.fi/en/research/emotional-modelling-enhance-learning-games)
   * Data and Scripts can be found at [this repository](https://github.com/ecloude/AMELIA).
 
+Highlighted Publications:
+* Cloude, Huber, Wei, Esmanhoto, Dindar, Ninaus, & Kiili. (In press). A balance between stability and flexiblity: Adaptive patterns of self-regulated learning processes during game-based learning. British Journal of Educational Technology. [PDF IN PRODUCTION]
+* Cloude, E.B., Dindar, M., Ninaus, M., Kiili, K. (2024). Synchrony Between Facial Expressions and Heart Rate Variability During Game-Based Learning: Insights from Cross-Wavelet Transformation. In: Ferreira Mello, R., Rummel, N., Jivet, I., Pishtari, G., Ruipérez Valiente, J.A. (eds) Technology Enhanced Learning for Inclusive and Equitable Quality Education. EC-TEL 2024. Lecture Notes in Computer Science, vol 15159. Springer. [PDF LINK HERE]()
+
 <br/><img src='/images/EUflag.png'>
